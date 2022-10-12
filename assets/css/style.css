@@ -19,6 +19,7 @@ primary
 tints
 shades
 grey: #EEEBE6
+#747474
 
 */
 html {
@@ -40,8 +41,10 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Lekton", sans-serif;
-  font-weight: bold;
-  padding-bottom: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 0.3rem;
   border-bottom: 1px solid black;
   color: black;
 }
@@ -146,27 +149,34 @@ html {
 .products {
   margin-bottom: 30rem;
   background-color: #f7f4eb;
-  border-bottom: 1px solid black;
-  padding-top: 10rem;
-  padding-bottom: 7rem;
-}
-
-.product-container {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
+  border-bottom: 1px solid #747474;
+  padding-top: 5rem;
 }
 
 .product-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.6rem;
-}
-
-.product-title {
+  padding: 5rem 0 1rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
+
+  letter-spacing: -1px;
+}
+
+.product-title {
+  padding-bottom: 0.5rem;
+  line-height: 1.2rem;
+}
+
+.btn-link-products {
+  margin-bottom: 1rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
 }
 
 .product-card {
@@ -175,6 +185,7 @@ html {
 
 .product-img {
   width: 100%;
+  height: 19rem;
   margin-bottom: 1.2rem;
 }
 
