@@ -37,16 +37,18 @@ html {
   margin: 0 auto;
 }
 
-.btn-link {
+.btn-link:link,
+.btn-link:visited {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Lekton", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 1px;
-  padding-bottom: 0.3rem;
+
   border-bottom: 1px solid black;
   color: black;
+  margin-bottom: 1rem;
 }
 
 /***************************************************/
@@ -57,7 +59,7 @@ html {
   grid-template-columns: 1fr 1fr;
   background-color: #f7f4eb;
   border-bottom: 1px solid black;
-  height: 4rem;
+  height: 3.8rem;
 }
 
 .logo {
@@ -85,13 +87,20 @@ html {
   border: none;
 }
 
-.main-nav-link {
+.main-nav-link:link,
+.main-nav-link:visited {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  transform: scale(1.1);
 }
 
 /**** SECTION HERO ****/
@@ -114,26 +123,24 @@ html {
 .hero-text-box {
   background-color: #e9decc;
   border-left: 1px solid black;
-  position: relative;
+
   border-bottom: 1px solid black;
 }
 
 .hero-title {
   font-family: "Playfair Display", serif;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   letter-spacing: 1px;
   font-weight: 600;
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   padding-left: 4rem;
+  margin-bottom: 42rem;
 }
 
 .hero-text {
   width: 22rem;
   margin-bottom: 4.8rem;
-  position: absolute;
-  bottom: 0;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  margin-left: 20rem;
 }
 
 .hero-info {
@@ -156,21 +163,17 @@ html {
 .product-header {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 0 1rem 0;
+  margin: 5rem 0 1rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
-
+  align-items: center;
   letter-spacing: -1px;
 }
 
 .product-title {
   padding-bottom: 0.5rem;
   line-height: 1.2rem;
-}
-
-.btn-link-products {
-  margin-bottom: 1rem;
 }
 
 .product-container {
@@ -210,6 +213,6 @@ html {
   font-size: 1rem;
   text-transform: uppercase;
   border: 1px solid black;
-  padding: 0.8rem 0;
-  margin-bottom: 0;
+
+  padding-top: 1.5rem;
 }
