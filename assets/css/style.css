@@ -294,8 +294,74 @@ html {
 
 .features {
   background-color: #516258;
+  color: white;
+  border-bottom: 1px solid #747474;
+  margin-bottom: 30rem;
 }
 
 .features-header {
   justify-content: space-between;
+  align-items: center;
+  padding: 6rem 8rem 7.4rem 3rem;
+}
+
+.features-btn:link,
+.features-btn:visited {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Lekton", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 1px solid white;
+  padding-bottom: 0.5rem;
+}
+
+.features-box {
+  gap: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.feature-1 {
+  flex-grow: 1;
+}
+
+.feature-2 {
+  flex-grow: 2;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.feature-img-1 {
+  height: 23rem;
+  margin-bottom: 1.3rem;
+}
+
+.feature-1 .feature-title {
+  padding-bottom: 1.5rem;
+}
+
+.feature-text {
+  line-height: 1.2rem;
+}
+
+.feature-2 .feature-title {
+  text-align: right;
+  line-height: 1.2rem;
+}
+
+.feature-2 .feature-title:first-child {
+  padding-bottom: 13rem;
+}
+
+.gap {
+  gap: 1rem;
+}
+
+.feature-img-2 {
+  height: 15rem;
 }
