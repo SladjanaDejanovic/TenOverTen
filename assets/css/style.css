@@ -72,6 +72,46 @@ html {
   margin-bottom: 1rem;
 }
 
+.button {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.button-span {
+  display: flex;
+  background-color: #e9decc;
+  border: 1px solid black;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+  padding: 0 7rem;
+  font-family: "Lekton", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.icon-span {
+  background-color: #e9decc;
+  height: 100%;
+  width: 3rem;
+  border: 1px solid black;
+  border-left: none;
+}
+
+.icon {
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
 /***************************************************/
 /*******  HEADER  ********/
 
@@ -296,7 +336,6 @@ html {
   background-color: #516258;
   color: white;
   border-bottom: 1px solid #747474;
-  margin-bottom: 30rem;
 }
 
 .features-header {
@@ -361,3 +400,38 @@ html {
 .feature-img-2 {
   height: 15rem;
 }
+
+/**** SECTION SETS ****/
+
+.section-sets {
+  background-color: #f7f4eb;
+  margin-bottom: 30rem;
+  border-bottom: 1px solid black;
+}
+
+.sets-header {
+  text-align: center;
+  padding: 5rem 0 4rem 0;
+}
+
+.sets {
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4.6rem;
+}
+
+.set-img {
+  height: 35rem;
+  margin-bottom: 1.2rem;
+}
+
+.set-info {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.shop-all {
+  margin-bottom: 7.5rem;
+}
+/***** SECTION FEATURED IN ****/
