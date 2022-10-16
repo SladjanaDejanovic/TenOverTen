@@ -42,11 +42,6 @@ html {
   flex-direction: column;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .container {
   max-width: 72rem;
   margin: 0 auto;
@@ -69,7 +64,6 @@ html {
   letter-spacing: 1px;
   border-bottom: 1px solid black;
   color: black;
-  margin-bottom: 1rem;
 }
 
 .button {
@@ -77,7 +71,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3rem;
 }
 
 .button-span {
@@ -121,8 +114,16 @@ html {
   height: 3.8rem;
 }
 
+.logo-div {
+  width: 50%;
+}
+
 .logo {
   margin-left: 1.2rem;
+}
+
+.main-nav {
+  width: 50%;
 }
 
 .main-nav-list {
@@ -162,12 +163,9 @@ html {
 
 /**** SECTION HERO ****/
 
-.hero {
-  height: 100vh;
-}
-
 .hero-img-box {
   border-bottom: 1px solid black;
+  width: 50%;
 }
 
 .hero-img {
@@ -176,20 +174,22 @@ html {
 }
 
 .hero-text-box {
+  width: 50%;
   background-color: #e9decc;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
+  justify-content: space-between;
 }
 
 .hero-title {
   padding-top: 3.5rem;
   padding-left: 4rem;
-  margin-bottom: 42rem;
+  margin-bottom: 3rem;
 }
 
 .hero-text {
   width: 22rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 6rem;
   margin-left: 20rem;
 }
 
@@ -296,6 +296,7 @@ html {
 }
 
 .text-box {
+  width: 50%;
   background-color: #f7f4eb;
   border-right: 1px solid #747474;
 }
@@ -321,6 +322,7 @@ html {
 }
 
 .roll-img-box {
+  width: 50%;
   background-color: #957f58;
   align-items: center;
   justify-content: center;
@@ -454,7 +456,12 @@ html {
 }
 
 .feat-1-text {
-  margin: 2rem 9rem 2rem 2rem;
+  margin: 2rem 15rem 2rem 2rem;
+  padding-right: 0.8rem;
+  height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .featured-title {
@@ -480,15 +487,23 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 80%;
 }
 
 .feat-info {
   font-family: "Montserrat", sans-serif;
-  padding: 1.5rem 1.5rem 0 1.5rem;
+  padding: 1.5rem 1rem 0 1.5rem;
   line-height: 1.5rem;
+  font-weight: 500;
 }
 
 .read-article {
   width: 100%;
   border-left: none;
+  border-bottom: none;
+}
+
+.feat-box .icon-span {
+  border-right: none;
+  border-bottom: none;
 }
