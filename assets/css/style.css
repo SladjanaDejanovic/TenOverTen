@@ -405,7 +405,6 @@ html {
 
 .section-sets {
   background-color: #f7f4eb;
-  margin-bottom: 30rem;
   border-bottom: 1px solid black;
 }
 
@@ -434,4 +433,62 @@ html {
 .shop-all {
   margin-bottom: 7.5rem;
 }
+
 /***** SECTION FEATURED IN ****/
+
+.featured-in {
+  height: 30rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 30rem;
+  justify-content: stretch;
+  background-color: #f7f4eb;
+}
+
+.feat {
+  border-right: 1px solid black;
+  width: 25%;
+}
+
+.feat:last-child {
+  border-right: none;
+}
+
+.feat-1-text {
+  margin: 2rem 9rem 2rem 2rem;
+}
+
+.featured-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.feat-logo {
+  border-bottom: 1px solid black;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feat-logo-img {
+  display: block;
+  height: 100%;
+}
+
+.feat-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feat-info {
+  font-family: "Montserrat", sans-serif;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  line-height: 1.5rem;
+}
+
+.read-article {
+  width: 100%;
+  border-left: none;
+}
