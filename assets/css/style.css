@@ -10,16 +10,20 @@ FONTS
 - SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-colors
+colors:
+primary
 #F7F4EB
 #E9DECC
 #516258
 #A39393
 #957F58
-primary
+
 tints
-shades
-grey: #EEEBE6
+
+shades #d2c8b8
+
+grey: 
+#EEEBE6
 #747474
 
 */
@@ -80,6 +84,11 @@ html {
   height: 100%;
   justify-content: center;
   align-items: center;
+  transition: 0.3s all;
+}
+
+.button-span:hover {
+  background-color: #d2c8b8;
 }
 
 .btn {
@@ -439,9 +448,8 @@ html {
 /***** SECTION FEATURED IN ****/
 
 .featured-in {
-  height: 30rem;
+  height: 27.5rem;
   border-bottom: 1px solid black;
-  margin-bottom: 30rem;
   justify-content: stretch;
   background-color: #f7f4eb;
 }
@@ -487,7 +495,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80%;
+  height: 78.3%;
 }
 
 .feat-info {
@@ -506,4 +514,94 @@ html {
 .feat-box .icon-span {
   border-right: none;
   border-bottom: none;
+}
+
+/**** FOOTER ****/
+
+footer {
+  background-color: #a39393;
+  height: 29.5rem;
+}
+
+.sign-up-box,
+.footer-links-box {
+  width: 50%;
+}
+
+.sign-up-box {
+  border-right: 1px solid black;
+}
+
+.sign-up-title {
+  margin-top: 7rem;
+  margin-left: 18rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  line-height: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.sign-up {
+  margin-left: 16rem;
+  border-bottom: 1px solid black;
+  width: 26.3rem;
+}
+
+.email {
+  margin-right: 0;
+  border: none;
+  padding-bottom: 0.3rem;
+  font-size: 0.9rem;
+  font-family: "Lekton", sans-serif;
+  background-color: transparent;
+  width: 20rem;
+}
+
+::placeholder {
+  color: rgb(53, 53, 53);
+  letter-spacing: 1px;
+}
+
+.submit-btn {
+  font-family: "Lekton", sans-serif;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 0.3rem;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 6rem;
+  text-align: end;
+  margin-left: 0;
+}
+
+.footer-links-box {
+  gap: 4rem;
+  padding-top: 8rem;
+  padding-left: 14rem;
+}
+
+.list-title {
+  border-bottom: 1px solid black;
+}
+
+.footer-list li {
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-family: "Lekton", sans-serif;
+}
+
+.footer-list li a:link,
+.footer-list li a:visited {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s all;
+}
+
+.footer-list li a:hover,
+.footer-list li a:active {
+  font-weight: bold;
 }
