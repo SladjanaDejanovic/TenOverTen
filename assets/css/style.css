@@ -123,22 +123,22 @@ html {
   height: 3.8rem;
 }
 
-.logo-div {
-  width: 50%;
+.logo-div,
+.main-nav {
+  flex: 1 0 50%;
 }
 
 .logo {
   margin-left: 1.2rem;
 }
-
-.main-nav {
-  width: 50%;
+/*
+.main-nav-wrapper {
+  width: 100%;
 }
-
+*/
 .main-nav-list {
   height: 100%;
   justify-content: space-between;
-  align-items: center;
   border-left: 1px solid black;
 }
 
@@ -172,21 +172,34 @@ html {
 
 /**** SECTION HERO ****/
 
-.hero-img-box {
+.hero {
   border-bottom: 1px solid black;
-  width: 50%;
+  height: 100vh;
 }
 
+.hero-img-box,
+.hero-text-box {
+  flex: 1 0 50%;
+}
+
+.hero-img-box {
+  width: 50%;
+}
+/*
 .hero-img {
   width: 100%;
   height: 100%;
+}*/
+
+.hero-img-box {
+  background-image: url(/assets/img/hero.PNG);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-text-box {
-  width: 50%;
   background-color: #e9decc;
   border-left: 1px solid black;
-  border-bottom: 1px solid black;
   justify-content: space-between;
 }
 
@@ -236,6 +249,7 @@ html {
 .product-container {
   justify-content: space-between;
   margin-bottom: 7rem;
+  flex-wrap: wrap;
 }
 
 .product-card {
@@ -304,8 +318,12 @@ html {
   border-bottom: 1px solid black;
 }
 
+.roll-img-box,
 .text-box {
-  width: 50%;
+  flex: 50%;
+}
+
+.text-box {
   background-color: #f7f4eb;
   border-right: 1px solid #747474;
 }
@@ -331,14 +349,17 @@ html {
 }
 
 .roll-img-box {
-  width: 50%;
   background-color: #957f58;
   align-items: center;
   justify-content: center;
 }
 
-.roll-img {
+.roll-img-wrap {
   height: 35rem;
+}
+
+.roll-img {
+  height: 100%;
 }
 
 /**** SECTION FEATURES ******/
@@ -428,6 +449,7 @@ html {
   justify-content: center;
   gap: 2rem;
   margin-bottom: 4.6rem;
+  flex-wrap: wrap;
 }
 
 .set-img {
