@@ -389,17 +389,22 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.features-box {
-  gap: 3rem;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-bottom: 5.5rem;
+.feature-container {
+  margin-left: 11%;
 }
 
-.feature-2 {
-  justify-content: space-between;
-  padding-bottom: 1rem;
+.features-box {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 5.5rem;
+  flex-wrap: wrap;
+}
+
+.feature-1 {
+  width: 20rem;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
 }
 
 .feature-img-1 {
@@ -413,6 +418,13 @@ html {
 
 .feature-text {
   line-height: 1.2rem;
+}
+
+.feature-2 {
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  width: 49rem;
+  margin-left: 3rem;
 }
 
 .feature-2 .feature-title {
@@ -430,7 +442,7 @@ html {
 }
 
 .feature-img-2 {
-  height: 15rem;
+  height: 15.5rem;
 }
 
 /**** SECTION SETS ****/
