@@ -518,6 +518,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .feat-logo-img {
@@ -539,15 +540,17 @@ html {
   font-weight: 500;
 }
 
+#last-feat {
+  border-right: 1px solid black;
+}
+
 .read-article {
   width: 100%;
   border-left: none;
-  border-bottom: none;
 }
 
 .feat-box .icon-span {
   border-right: none;
-  border-bottom: none;
 }
 
 /**** FOOTER ****/
