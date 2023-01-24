@@ -180,12 +180,16 @@ html {
 
 .hero-img-box {
   width: 50%;
+  /* background-image: url(/assets/img/hero1.PNG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  overflow: hidden;
 }
 
-.hero-img-box {
-  background-image: url(/assets/img/hero.PNG);
-  background-position: center;
-  background-size: cover;
+.hero-img {
+  height: 103%;
+  width: 100%;
 }
 
 .hero-text-box {
