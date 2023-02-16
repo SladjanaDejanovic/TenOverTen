@@ -275,6 +275,11 @@ html {
   text-transform: uppercase;
   border: 1px solid black;
   padding: 0.7rem 0;
+  cursor: pointer;
+}
+
+.product-btn:hover {
+  background-color: #dfdcd6;
 }
 
 /***** SECTION TESTIMONIALS ************/
@@ -313,10 +318,6 @@ html {
 .text-box,
 .roll-img-box {
   width: 50%;
-}
-
-.roll-img-box,
-.text-box {
   flex: 50%;
 }
 
